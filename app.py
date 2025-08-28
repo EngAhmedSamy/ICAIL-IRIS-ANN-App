@@ -10,8 +10,11 @@ import pickle
 #model = pickle.load(open("iris_ann_model.pkl", "rb"))
 #scaler = pickle.load(open("scaler.pkl", "rb"))
 
-model = pickle.load(open("/content/drive/MyDrive/ICAIL_Iris_ANN/models/iris_ann_model.pkl", "rb"))
-scaler = pickle.load(open("/content/drive/MyDrive/ICAIL_Iris_ANN/models/scaler.pkl", "rb"))
+#model = pickle.load(open("/content/drive/MyDrive/ICAIL_Iris_ANN/models/iris_ann_model.pkl", "rb"))
+#scaler = pickle.load(open("/content/drive/MyDrive/ICAIL_Iris_ANN/models/scaler.pkl", "rb"))
+
+model = pickle.load(open("models/iris_ann_model.pkl", "rb"))
+scaler = pickle.load(open("models/scaler.pkl", "rb"))
 
 # App title and intro
 st.title("🌸 Iris Flower Classifier")
